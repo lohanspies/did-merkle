@@ -18,6 +18,7 @@ RUN pip install hdwallet
 RUN pip install py-multibase
 RUN pip install peerdid
 RUN pip install -U didkit
+RUN pip install py-multibase
 
 COPY . /did-merkle
 
