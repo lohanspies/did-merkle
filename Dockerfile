@@ -14,7 +14,6 @@ RUN pip install secp256k1
 RUN pip install pymerkle
 RUN pip install py-multihash
 RUN pip install hdwallet
-#RUN pip install bitcoinlib
 RUN pip install py-multibase
 RUN pip install peerdid
 RUN pip install -U didkit
